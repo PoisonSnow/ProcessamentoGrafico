@@ -1,5 +1,5 @@
 Movimentação em linha 
-	W = Frente
-	A = Tras
-	S = Esquerda
-	D = Direita
+	W = Frente /
+	A = Tras /
+	S = Esquerda /
+	D = Direita /
