@@ -4,7 +4,7 @@ Movimentação em linha
 	S = Esquerda /
 	D = Direita /
 Movimentação na Diagonal
-	Q = W + A
- 	E = W + D
-  	Z = S + A
+	Q = W + A /
+ 	E = W + D /
+  	Z = S + A /
    	C = S + D
