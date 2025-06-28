@@ -1,0 +1,9 @@
+    A lógica de posicionamento de objetos, nesse caso de couro, é feita na aleatoriedade, desde que o tile seja de pedra, 
+ao pegar 5 pedaços de couro, se ganha uma bota especial.
+    
+    A lógica dos tiles é a seguinte: quando inicia o jogo, de maneira aleatória é escolhido um tile na linha 0 para começar,
+desse modo todo o caminho é feito de maneira aleatória, até um ponto onde se cria uma bifurcação com um caminho mais simples,
+o intuito é fazer o player querer pegar o caminho mais curto, no entanto a ultima linha são tiles de lava, impossíveis de atravessar sem a bota.
+Quando o player da o primeiro passo todos os tiles se tornam da mesma cor, de maneira que o player tenha que memorizar o caminho, para não ficar
+muito difícil, após 2 passos, o player volta a ver o mapa e assim por diante. Caso o player pise em um tile que não seja de pedra, ou seja o caminho, 
+ele perde uma vida de um total de 5, quando perder todas, game over! Um detalhe é que ao pisar na lava sem as botas especiais, é game over direto.
